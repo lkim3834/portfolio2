@@ -1,0 +1,147 @@
+<!-- enter HTML:5 after writing "html"-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- whatever goes for the tab name  -->
+    <link rel="stylesheet" href="project_styles.css">
+    <script src="https://kit.fontawesome.com/3d27cdd149.js" crossorigin="anonymous"></script>
+
+    <title>Leejin (Ian) Kim Portfolio</title>
+</head>
+<body>
+  
+    
+ 
+        <nav>
+            <!--  div : block level -->
+            <div class = "nav-center">
+                <h4>Leejin (Ian) Kim Portfolio</h4>
+             
+                 <!-- unorganized list -->
+                <ul class="nav-links">
+                    <li>
+                        <a href="index.html">Home</a>
+                      </li>
+                      <li>
+                        <a href="about.html">About Me</a>
+                      </li>
+                      <li>
+                      <li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <button class="sidebar-toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                   
+                  </ul>
+            </div>
+        </nav>
+       
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <button class="close-btn"><i class="fas fa-times"></i></button>
+              </div>
+              <ul class="links">
+                <li>
+                  <a href="index.html">home</a>
+                </li>
+                <li>
+                  <a href="about.html">About Me</a>
+                </li>
+                <li>
+                  <a href="project.html">projects</a>
+                </li>
+                <li>
+                  <a href="contact.html">contact</a>
+                </li>
+              </ul>
+              <ul  class = "social-icons">
+                <li>
+                  <a href="https://github.com/lkim3834">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+                
+                
+                <li>
+                  <a href="https://www.linkedin.com/in/ian-kim-72113020a/">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                
+              </ul>
+        </aside>
+
+        <main>
+          
+          <div class="container">
+                
+            <h2>Project</h2>
+            
+        
+          
+              <article class="review">
+                <div class="img-container">
+                  <img src="images/Athena.png" id="images" alt="Athena App" />
+                </div>
+                <h4 id="author"> Athena app</h4>
+                <p id="job">Swift, Firestore, Git</p>
+                <a href="https://github.com/heysaik/project-athena" style = "font-size: 30px;color : var(--clr-primary-3);">
+                  <i class="fa-brands fa-github"></i>
+                
+                </a>
+                <p id="info">
+                  • Created an iOS book-tracking app by implementing Swift, Firebase Firestore, and MVVM architecture in an Agile. <br>
+                  • Retrieved and updated backend data utilizing Firestore to enhance users’ reading progress monitoring experience.<br>
+                  • Served a user-friendly notes view, allowing users to create, search, and manage notes linked to their books.<br>
+                </p>
+                <!-- prev next buttons-->
+                <div class="button-container">
+                  <button class="prev-btn">
+                    <!-- indicate in italic style -->
+                    <i class="fas fa-chevron-left"></i>
+                  </button>
+                  <button class="next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                    <!-- <i>Italic</i> -->
+                  </button>
+                
+                
+              </article>
+            
+          
+          </div>
+        
+    </div>
+    </main>
+    <footer>
+        
+        <p>&copy; 2023 My Company. All rights reserved.
+        <ul  class = "icon">
+            <li>
+              <a href="https://github.com/lkim3834">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            
+            
+            <li>
+              <a href="https://www.linkedin.com/in/ian-kim-72113020a/">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            
+          </ul>
+        </p>
+    </footer>
+   
+  
+    <script src = "javascript/project.js">
+        
+    </script>
+</body>
+</html>

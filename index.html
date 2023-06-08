@@ -1,0 +1,155 @@
+<!-- enter HTML:5 after writing "html"-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!-- whatever goes for the tab name  -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/3d27cdd149.js" crossorigin="anonymous"></script>
+
+    <title>Leejin (Ian) Kim Portfolio</title>
+</head>
+<body>
+
+ 
+        <nav>
+            <!--  div : block level -->
+            <div class = "nav-center">
+                <h4>Leejin (Ian) Kim Portfolio</h4>
+             
+                 <!-- unorganized list -->
+                <ul class="nav-links">
+                    <li>
+                        <a href="index.html">Home</a>
+                      </li>
+                      <li>
+                        <a href="about.html">About Me</a>
+                      </li>
+                      <li>
+                      <li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <button class="sidebar-toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                   
+                  </ul>
+            </div>
+        </nav>
+       
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <button class="close-btn"><i class="fas fa-times"></i></button>
+              </div>
+              <ul class="links">
+                <li>
+                  <a href="index.html">home</a>
+                </li>
+                <li>
+                  <a href="about.html">About Me</a>
+                </li>
+                <li>
+                  <a href="project.html">projects</a>
+                </li>
+                <li>
+                  <a href="contact.html">contact</a>
+                </li>
+              </ul>
+              <ul  class = "social-icons">
+                <li>
+                  <a href="https://github.com/lkim3834">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+                
+                
+                <li>
+                  <a href="https://www.linkedin.com/in/ian-kim-72113020a/">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                
+              </ul>
+        </aside>
+
+        <main>
+          
+            <div class="container">
+                
+            <h2>Leejin (Ian) Kim</h2>
+            
+            
+            <!-- img : no closing tag. src meant for source, rendered for the 
+        image -->
+        <!-- alternative text in case it cannot be displayed -->
+        <div class="grid-container">
+            <div class="grid-item" id = "snowflakes">
+                <i class="fa-solid fa-snowflake"></i>
+            </div>
+            <div class = "profile">
+            <img src="images/IMG_5652.jpg" alt="My Image" >
+            
+            </div>
+            <div class="grid-item" id = "snowflakes">
+                <i class="fa-solid fa-snowflake"></i>
+            </div>
+            
+        </div>
+            <div class="grid-container">
+            <div class="grid-item"></div>
+            <div class = "grid-item"  >
+                <p>Hello, this is Ian Kim. I recently graduated with a Bachelor degree in Computer Science from the University of California, Santa Cruz.<br> 
+                    I'm seeking a full-time position as a New Graduate, Associate, or Entry-Level Software Engineer. <br>
+                    <br>
+                    <button class="btn btn-hero" id="btn">Contact Me</button>
+                    <button class="btn btn-hero" id="btn">Projects</button>
+                </p>
+                
+            </div>
+            </div>
+        
+            <!-- <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                 https://www.w3schools.com/html/html_form_input_types.asp -->
+                <!-- <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+                <button id ="submit">submit</button>
+            </form>  -->
+            <!-- social media -->
+     
+    </div>
+    </main>
+    <footer>
+        
+        <p>&copy; 2023 My Company. All rights reserved.
+        <ul  class = "icon">
+            <li>
+              <a href="https://github.com/lkim3834">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            
+            
+            <li>
+              <a href="https://www.linkedin.com/in/ian-kim-72113020a/">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            
+          </ul>
+        </p>
+    </footer>
+   
+  
+    <script src = "javascript/index.js">
+        
+    </script>
+</body>
+</html>
